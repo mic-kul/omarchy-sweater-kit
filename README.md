@@ -9,7 +9,7 @@ picked per app from its icon colour. A ball of yarn in the bar toggles it.
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/mickul/omarchy-sweater-kit.git --enable
+omarchy plugin add https://github.com/mic-kul/omarchy-sweater-kit.git --enable
 ```
 
 Or from a local checkout:
