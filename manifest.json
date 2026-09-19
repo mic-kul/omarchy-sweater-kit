@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mickul.sweater-kit",
+  "name": "Sweater Kit",
+  "version": "0.1.0",
+  "author": "mickul",
+  "license": "MIT",
+  "description": "Knitted sweaters for your windows. Wraps every Hyprland window in a stockinette border dyed with the current Omarchy theme, one design and colour per app.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Sweater Kit",
+    "description": "Toggle the knitted window borders.",
+    "category": "Appearance",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

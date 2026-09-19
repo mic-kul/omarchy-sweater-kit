@@ -1,0 +1,7 @@
+# Copy to ~/.config/sweater-kit.toml. Changes apply live within two seconds.
+
+thickness = 12   # total knit width in px
+outset = 6       # px of it outside the window edge; the rest overlaps the window
+stitch = 12      # stitch width in px
+yarn = "theme"   # "theme" dyes to the Omarchy theme, "icon" uses raw app icon colours
+design = ""      # "", or force "solid" / "stripes" / "checker" / "fairisle" for every window

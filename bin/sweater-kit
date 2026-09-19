@@ -1,0 +1,6 @@
+#!/bin/sh
+# Launcher: gtk4-layer-shell must be loaded before libwayland-client, so preload it.
+# Usage: sweater-kit            run the overlay
+#        sweater-kit toggle|on|off|status   control a running overlay
+export LD_PRELOAD="${LD_PRELOAD:+$LD_PRELOAD:}/usr/lib/libgtk4-layer-shell.so"
+exec /usr/bin/python3 "$(dirname "$(readlink -f "$0")")/../sweater_kit.py" "$@"
